@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="#">
+                        <div class="header__logo logo">
+                            <img src="./img/logo.svg" alt="hotel logo" class="logo__img">
+                            <p>hotel</p>
+                        </div>
+                    </a>
+                    <ul class="nav__menu">
+                        <li class="nav__item"><a href="#">home</a></li>
+                        <li class="nav__item"><a href="#">branch</a></li>
+                        <li class="nav__item"><a href="#">search</a></li>
+                        <li class="nav__item"><a href="#">about us</a></li>
+                        <li class="nav__item"><a href="#">pages</a></li>
+                        <li class="nav__item"><a href="#">blog</a></li>
+                    </ul>
+                    <button class="nav__btn btn">
+                        reservation
+                    </button>
+                </nav>
+                <div class="header__body">
+                    <div class="header__info info">
+                        <div class="title header__quote">Discover a hotel<br/>
+                            that defies a new
+                            dimension of luxury.</div>
+                        <p class="header__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                        <div class="info__btns">
+                            <button class="btn info__btn">get started</button>
+                            <a href="#" class="info__btn info__play-btn play-btn">Watch video</a>
+                        </div>
+                    </div>
+                    <div class="header__bg">
+                        <div class="header__stat"><img src="./img/MarketStatic.png" alt="makret statistic"></div>
+                        <div class="header__img"><img src="./img/hotel.png" alt="hotel"></div>
+                        <div class="header__stat"><img src="./img/HotelDeal.png" alt="hotel deal"></div>
+                        <div class="header__circle header__circle_giant"></div>
+                        <div class="header__circle header__circle_dark header__circle_big "></div>
+                        <div class="header__circle header__circle_dark header__circle_middle"></div>
+                        <div class="header__circle header__circle_dark header__circle_small"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="availability">
+                <div class="container">
+                    <div class="sec-header">
+                        <h1 class="title sec-header__title">Check Availability</h1>
+                        <div class="sec-header__quoter">
+                            It is a long established fact that a reader will be distracted by the readable content of a page.
+                        </div>
+                    </div>
+                    <div class="check-in">
+                        <div class="check-in__img"><img src="./img/checkin.png" alt="building"></div>
+                        
+                        <form action="" class="check-in__form">
+                            <div class="check-in__container">
+                                <label for="check-in">check-in</label>
+                                <input type="date" id="check-in" name="check-in" placeholder="Thu, 21 Jul 2022" data-date="21 Jul 2022" data-date-format="DD MMM YYYY">
+                                
+                                <label for="check-out">check-out</label>
+                                <input type="date" id="check-out" name="check-out" value="Fri, 22 Jul 2022">
+                                
+                                <label for="guests">guests</label>
+                                <select name="guests" id="guests-select">
+                                    <option value="1">1 room</option>
+                                    <option value="2">2 rooms</option>
+                                    <option value="3">3 rooms</option>
+                                    <option value="4">4 rooms</option>
+                                    <option value="5">5 rooms</option>
+                                </select>   
+                                <input type="submit" value="check availability">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+            <section class="popular">
+                <div class="container">
+                    <div class="sec-header">
+                        <h1 class="title sec-header__title">our most popular room</h1>
+                        <div class="sec-header__quoter">
+                            It is a long established fact that a reader will be distracted by the readable content of a page.
+                        </div>
+                    </div>
+                    <div class="popular__rooms gallery">
+                        <div class="gallery__column">
+                            <img src="./img/room1.png" alt="room">
+                            <div class="gallery__description">
+                                <h2 class="gallery__title">
+                                    Deluxe Contrast Room
+                                </h2>
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point-square">
+                                        52 sqm
+                                    </li>
+                                    <li class="gallery__point gallery__point-bed">
+                                        2 Bed
+                                    </li>
+                                    <li class="gallery__point gallery__point-bath">
+                                        1 Bathroom
+                                    </li>
+                                </ul>
+                                <p><spqn class="gallery__price">$200</spqn> / night</p>
+                            </div>
+                        </div>
+                        <div class="gallery__column">
+                            <img src="./img/room2.png" alt="room"/>
+                            <div class="gallery__description">
+                                <h2 class="gallery__title">
+                                    luxery twin room
+                                </h2>
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point-square">
+                                        52 sqm
+                                    </li>
+                                    <li class="gallery__point gallery__point-bed">
+                                        2 Bed
+                                    </li>
+                                    <li class="gallery__point gallery__point-bath">
+                                        1 Bathroom
+                                    </li>
+                                </ul>
+                                <p><spqn class="gallery__price">$250</spqn> / night</p>
+                            </div>
+                        </div>
+                        <div class="gallery__column">
+                            <img src="./img/room3.png" alt="room"/>
+                            <div class="gallery__description">
+                                <h2 class="gallery__title">
+                                    single Contrast Room
+                                </h2>
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point-square">
+                                        52 sqm
+                                    </li>
+                                    <li class="gallery__point gallery__point-bed">
+                                        2 Bed
+                                    </li>
+                                    <li class="gallery__point gallery__point-bath">
+                                        1 Bathroom
+                                    </li>
+                                </ul>
+                                <p><spqn class="gallery__price">$280</spqn> / night</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="sec-header">
+                        <h2 class="sec-header__subtitle">our services</h2>
+                        <h1 class="title sec-header__title">hotel facilities</h1>
+                    </div>
+                    <div class="services__list">
+                        <div class="services__item services__item_pick-up">
+                            <h3 class="services__title">Pick up & Drop</h3>
+                            <p class="services__desctiption">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                        </div>
+                        <div class="services__item services__item_parking">
+                            <h3 class="services__title">Parking Space</h3>
+                            <p class="services__desctiption">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="services__item services__item_room">
+                            <h3 class="services__title">Room Services</h3>
+                            <p class="services__desctiption">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                        </div>
+                        <div class="services__item services__item_swimming">
+                            <h3 class="services__title">Swimming Pool</h3>
+                            <p class="services__desctiption">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="services__item services__item_internet">
+                            <h3 class="services__title">Fibre Internet</h3>
+                            <p class="services__desctiption">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                        </div>
+                        <div class="services__item services__item_breakfast">
+                            <h3 class="services__title">Breakfast</h3>
+                            <p class="services__desctiption">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <ul class="services__statistic pipe-list">
+                        <li class="pipe-list__item">
+                            <div class="pipe-list__content">
+                                <div class="pipe-list__title">302 +</div>
+                                <p class="pipe-list__text">Room & Suites</p>
+                            </div>
+                        </li>
+                        <li class="pipe-list__item">
+                            <div class="pipe-list__content">
+                                <div class="pipe-list__title">25</div>
+                                <p class="pipe-list__text">Restaurant</p>
+                            </div>
+                        </li>
+                        <li class="pipe-list__item">
+                            <div class="pipe-list__content">
+                                <div class="pipe-list__title">510 +</div>
+                                <p class="pipe-list__text">Exceptional Food</p>
+                            </div>
+                        </li>
+                        <li class="pipe-list__item">
+                            <div class="pipe-list__content">
+                                <div class="pipe-list__title">65</div>
+                                <p class="pipe-list__text">Destination</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="history">
+                <div class="container">
+                    <div class="history__block">
+                        <div class="history__text">
+                            <h3>
+                                discover our history
+                            </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                            </p>
+                            <p>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </p>
+                            <div class="info__btns">
+                                <button class="info__btn btn">explore more</button>
+                                <a href="#" class="info__btn info__play-btn play-btn">Watch video</a>
+                            </div>
+                        </div>
+                        <div class="history__video video">
+                            <img src="./img/history-video.png" alt="video with history of hotel">
+                            <div class="video__play"><a href="#"><img src="./img/pic/play2.svg" alt="play"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="customers">
+                <div class="container">
+                    <div class="customers__header">
+                        <h2 class="customers__title">our happy customers</h2>
+                        <p class ="customers__quote">Know about our clients, we are a woldwide corporate brand</p>
+                    </div>
+                    <div class="customers__row">
+                        <div class="customers__card">
+                            <div class="customers__ava"><img src="./img/ava/1.png" alt="ava"></div>
+                            <h4 class="customers__name">wade warren</h4>
+                            <p class="customers__company">louis vuitton</p>
+                            <p class="customers__comment">Necessary to deliver white glove,
+                                fully managed campaigns that surpass
+                                industry benchmarks.Take your career
+                                to next level.
+                                </p>
+                        </div>
+                        <div class="customers__card">
+                            <div class="customers__ava"><img src="./img/ava/2.png" alt="ava"></div>
+                            <h4 class="customers__name">albert florise</h4>
+                            <p class="customers__company">nintendo</p>
+                            <p class="customers__comment">Necessary to deliver white glove,
+                                fully managed campaigns that surpass
+                                industry benchmarks.Take your career
+                                to next level.
+                                </p>
+                        </div>
+                        <div class="customers__card">
+                            <div class="customers__ava"><img src="./img/ava/3.png" alt="ava"></div>
+                            <h4 class="customers__name">jenny wilson</h4>
+                            <p class="customers__company">bank of america</p>
+                            <p class="customers__comment">Necessary to deliver white glove,
+                                fully managed campaigns that surpass
+                                industry benchmarks.Take your career
+                                to next level.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dots">
+                    <span class="dots__dot dots__dot_small"></span>
+                    <span class="dots__dot dots__dot_long"></span>
+                    <span class="dots__dot dots__dot_small"></span>
+                </div>    
+            </section>
+            <section class="blog">
+                <div class="container">
+                    <div class="sec-header sec-header_left">
+                        <h2 class="sec-header__subtitle">hotel blog</h2>
+                        <h1 class="title sec-header__title">our news</h1>
+                    </div>   
+                    <div class="blog_articles gallery">
+                        <div class="gallery__column">
+                            <img src="./img/blog/article1.png" alt="swimmingpool">
+                            <div class="gallery__description">
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point_big gallery__point-earth">
+                                        Travel
+                                    </li>
+                                    <li class="gallery__point gallery__point_big gallery__point-msg">
+                                        <a href="#">2 Comment</a>
+                                    </li>
+                                </ul>
+                                <h2 class="gallery__title">
+                                    How To Travel With Map
+                                </h2>
+                                <p class="gallery__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="gallery__read-more">read more</a>
+                            </div>
+                        </div>  
+                        <div class="gallery__column">
+                            <img src="./img/blog/article2.png" alt="house">
+                            <div class="gallery__description">
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point_big gallery__point-earth">
+                                        Travel
+                                    </li>
+                                    <li class="gallery__point gallery__point_big gallery__point-msg">
+                                        <a href="#">2 Comment</a>
+                                    </li>
+                                </ul>
+                                <h2 class="gallery__title">
+                                    Single contrast room
+                                </h2>
+                                <p class="gallery__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="gallery__read-more">read more</a>
+                            </div>
+                        </div>  
+                        <div class="gallery__column">
+                            <img src="./img/blog/article3.png" alt="skyscrapper">
+                            <div class="gallery__description">
+                                <ul class="gallery__icons">
+                                    <li class="gallery__point gallery__point_big gallery__point-earth">
+                                        Travel
+                                    </li>
+                                    <li class="gallery__point gallery__point_big gallery__point-msg">
+                                        <a href="#">2 Comment</a>
+                                    </li>
+                                </ul>
+                                <h2 class="gallery__title">
+                                    luxery twin room
+                                </h2>
+                                <p class="gallery__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="#" class="gallery__read-more">read more</a>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="dots">
+                        <span class="dots__dot dots__dot_small"></span>
+                        <span class="dots__dot dots__dot_long"></span>
+                        <span class="dots__dot dots__dot_small"></span>
+                    </div>    
+            </section>
+            <section class="intouch">
+                <div class="container intouch__container">
+                    <h1 class="intouch__title">Stay in Touch</h1>
+                    <p class="intouch__text">Signup to receive news and<br>updates from our hotel.</p>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+                        <button>subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="contacts__frame">
+                    <div class="container">
+                        <div class="contacts__container">
+                            <div class="contacts__column">
+                                <a href="#">
+                                    <div class="contacts__logo logo">
+                                        <img src="./img/logo.svg" alt="hotel logo" class="logo__img">
+                                        <p>hotel</p>
+                                    </div>
+                                </a>
+                                <p>Itawa is a responsive real estate landing page template.Itawa is a  landing page template.Itawa template.</p>
+                            </div>
+                            <div class="contacts__column">
+                                <h1 class="contacts__title">
+                                    contact us
+                                </h1>
+                                <ul class="contacts__list">
+                                    <li class="contacts__geo">
+                                        <a href="#">
+                                            123 Business Centre London SW1A 1AA
+                                        </a>
+                                    </li>
+                                    <li class="contacts__tel">
+                                        <a href="#">
+                                            +1 0000 000 00
+                                        </a>
+                                    </li>
+                                    <li class="contacts__email">
+                                        <a href="#">
+                                            info@businessname.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contacts__column">
+                                <h1 class="contacts__title">follow us</h1>
+                                <div class="contacts__socials">
+                                    <a href="#" class="contacts__social"><img src="./img/pic/contacts/fb.svg" alt="facebook"></a>
+                                    <a href="#" class="contacts__social"><img src="./img/pic/contacts/inst.svg" alt="instagram"></a>
+                                    <a href="#" class="contacts__social"><img src="./img/pic/contacts/twitter.svg" alt="twitter"></a>
+                                </div>
+                                <p>Itawa is a responsive real estate landing page template.Itawa is a  landing page template.Itawa
+                                    template.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <a class="footer__copyright" href="#">
+                        ©HOTEL Official 2022
+                    </a>
+                    <ul class="footer__nav">
+                        <li><a class="footer__item" href="#">Privacy policy</a></li>
+                        <li><a class="footer__item" href="#">Cookies</a></li>
+                        <li><a class="footer__item" href="#">Terms of service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
